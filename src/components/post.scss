@@ -1,0 +1,28 @@
+.post-wrapper{
+    padding: 15px 0;
+    
+    width:100%;
+    &:not(:last-of-type){
+        border-bottom: 1px solid rgba(0,0,0,1);
+        margin-bottom:15px;
+    }
+        >h2{
+            margin-bottom:0;
+            margin-top:0;
+            >*{
+                color: #27ae60;
+                font-size: 38px;
+                text-decoration:none;
+            }
+        }
+
+        >p{
+            margin-top:5px;
+            font-size: 22px;
+            color: #969296;
+            >span{
+                color: #686468;
+            }
+        }
+    
+}

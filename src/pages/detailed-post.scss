@@ -1,0 +1,21 @@
+.detailed-post-wrapper{
+    header{
+        h1{
+            margin-bottom:0;
+            font-size:38px;
+            color: #27ae60;
+        }
+        >.post-info-wrapper{
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-start;
+            
+            >*{
+                margin-right:25px;
+                font-size:22px;
+                margin-top:5px;
+                margin-bottom:5px;
+            }
+        }
+    }
+}

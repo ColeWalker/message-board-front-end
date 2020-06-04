@@ -1,0 +1,10 @@
+.register-wrapper{
+    display:flex;
+    flex-direction:column;
+    padding: 100px 10px;
+    max-width: 400px;
+    margin: auto;
+}
+.register-wrapper *{
+    font-size: 22px;
+}
